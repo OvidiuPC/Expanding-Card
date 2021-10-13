@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: column;
+    width: 80vw;
+    height: 80vh;
+}
+.card{
+ flex: 0.5;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ /* box-sizing: border-box; */
+ border-radius:50px;
+
+}
+.card.active{
+    flex: 8;
+   
+}
+.card:hover{
+    margin-top: -15px;
+}
+
+
+
+
+
+
+.card:nth-child(1){
+    position: relative;
+    z-index: 1;
+    background-image: url(https://static.educalingo.com/img/en/800/nature.jpg);
+}
+.card:nth-child(2){
+     position: relative;
+    z-index: 2;
+    background-image: url(https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg);
+}
+.card:nth-child(3){
+     position: relative;
+    z-index: 3;
+    background-image: url(https://www.iucn.org/sites/dev/files/content/images/2020/shutterstock_1458128810.jpg);
+}
+.card:nth-child(4){
+     position: relative;
+    z-index: 4;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/24701-nature-natural-beauty.jpg/1280px-24701-nature-natural-beauty.jpg);
+}
+.card:nth-child(5){
+     position: relative;
+    z-index: 5;
+    background-image: url(https://pbs.twimg.com/media/E9YJOcmWQAczMrY.jpg);
+}
+.card:nth-child(6){
+     position: relative;
+    z-index: 6;
+    background-image: url(https://i.guim.co.uk/img/media/0fb2e0045ccbb19b83c84b3049e4cec8e9714192/0_149_4245_2547/master/4245.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=dd3cd4761f4eb4c1f854d172b89849a7);
+}
+.card:nth-child(7){
+     position: relative;
+    z-index: 7;
+    background-image: url(https://images.theconversation.com/files/399816/original/file-20210510-5797-xqoxsr.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop);
+}
+.card:nth-child(8){
+    position: relative;
+    z-index: 8;
+    background-image: url(https://ichef.bbci.co.uk/images/ic/1200x675/p01lymgh.jpg);
+}
